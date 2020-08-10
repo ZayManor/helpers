@@ -19,4 +19,6 @@ A repository of random scripts that allow me to become even lazier of a person!
     ├── create_gitignore.sh  <- Creates a .gitignore for users.
     │
     ├── setup_local_github_env.sh  <- Simple github setup for users.
+    │
+    ├── setup_poetry_env.sh  <- Create poetry virtual environment.
 --------

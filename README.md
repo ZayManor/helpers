@@ -6,11 +6,11 @@ A repository of random scripts that allow me to become even lazier of a person!
 2. `cd helpers`
 4. Explore and use whatever you like!
 
-## Project Organization
-    ├── github_templates  <- Contains simple github scripts.
+## Project Organization    │
+    ├── notebook_template  <- Generate notebooks from templates.
     │
-    ├── jupyter_template  <- Generate notebooks from templates.
-    │
+    ├── project_templates  <- Contains simple project scripts.
+    |
     ├── .gitignore  <- Specifies which files to ignore within the repository.
     │
     ├── README.md  <- The top-level README for developers using this project.
