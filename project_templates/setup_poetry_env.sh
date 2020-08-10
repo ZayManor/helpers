@@ -4,9 +4,11 @@ main() {
 
   PROJECT_NAME=${1:-${PWD##*/}}
 
-  echo 'Creating poetry virtual environment...'
+  printf "Creating pyproject.toml...\n"
   poetry_init $PROJECT_NAME
-  echo 'Virtual environment created!'
+  printf "...pyproject.toml created.\nCreating virtual environment..."
+  poetry install >> /dev/null
+  printf "\nVirtual environment created!\n"
 
 }
 
