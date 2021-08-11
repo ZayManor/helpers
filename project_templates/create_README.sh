@@ -13,16 +13,29 @@ create_README_MD() {
 
 write_to_README() {
 printf "# My Project Name
-Short description of the project
+Short description of the project.
 
-## Prerequisites
+## Live Project
+To view our application, click the link below:
+
+https://link-to-hosted-app.com/
+
+## Running the App Locally
+
+The following sections will show you how to run the application locally.
+
+### Prerequisites
 - tech_1: ^0.0
 - tech_2: ^0.0
+- tech_3: ^0.0
 
-## Getting Started
+### Getting Started
 1. git clone https://github.com/github-user/project-name.git
 2. cd project-name
-3. type_to_run_app
+3. python app.py
+
+### Running our test suite
+1. python test-app.py
 
 ## Project Organization
 ------------
@@ -37,7 +50,7 @@ Short description of the project
     │
     ├── setup_local_github_env.sh  <- Simple github setup for users.
 
---------" >> README.md
+--------" > README.md
 }
 
 main
